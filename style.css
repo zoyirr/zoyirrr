@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 40px 0;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 28.15px;
+letter-spacing: 0%;
+text-align: center;
+}
+li a:hover{
+    color: #2AF598 ;
+
+}
+
+.hero{
+    background-image: url(./img/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+h1{
+    font-family: Work Sans;
+font-weight: 700;
+font-size: 82px;
+line-height: 96.19px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+.hero p{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+.btn-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    width: 463px;
+    height: 71px;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(93.99deg, #56616d 0.51%, #424c58 100%);
+    color: rgb(236, 255, 144);
+    font-size: 20px;
+    padding: 0 70px 0 15px;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    color: white;
+    margin-left: -60px;
+}
+::placeholder{
+    color: #f7f7f7;
+}
+#i{
+    display: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+#i:hover{
+    color: #2AF598;
+}
+#img{
+    display: none;
+}
+
+.bola{
+    display: flex;
+    align-items: center;
+}
+h6{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 32px;
+line-height: 37.54px;
+letter-spacing: 0%;
+color: rgba(8, 19, 35, 1);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero1{
+    padding-top: 40px;
+}
+
+h2{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 64px;
+line-height: 75.07px;
+letter-spacing: 0%;
+}
+.card p{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 24px;
+line-height: 28.15px;
+letter-spacing: 0%;
+align-items: center;
+}
+
+.card1{
+    background: rgba(193, 208, 228, 1);
+    width: 329px;
+    height: 510px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 30px 0px rgba(221, 218, 218, 0.25);
+
+}
+
+#gul{
+    margin-top: -110px;
+}
+
+.bola-card{
+    width: 329px;
+    height: 260px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(221, 218, 218, 0.25);
+}
+
+h3{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 32px;
+line-height: 37.54px;
+letter-spacing: 0%;
+text-align: left;
+padding: 15px 0 0 30px;
+}
+
+.btnn{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    font-size: 40px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 20px;
+}
+
+.btn-h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    padding: 0 20px 0 0;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: center;
+}
+#iii{
+    display: none;
+}
+
+h4{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 64px;
+line-height: 75.07px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 100px;
+}
+
+.p{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 28.15px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rasm{
+    width: 600px;
+    padding-top: 30px;
+}
+.rasm1{
+    height: 830px;
+    padding-top: 40px;
+}
+
+.bolaa-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+h5{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 32px;
+line-height: 37.54px;
+letter-spacing: 0%;
+}
+.bolaa-card p{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.46px;
+    letter-spacing: 0%;
+}
+.h5{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 64px;
+line-height: 75.07px;
+letter-spacing: 0%;
+}
+.pp{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 28.15px;
+letter-spacing: 0%;
+padding-bottom: 100px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+footer{
+    background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+    height: 500px;
+    margin-top: 60px;
+}
+.btn3{
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border: none;
+    color: white;
+    width: 100px;
+    height: 47px;
+    border-radius: 50px;
+    margin-left: -110px;
+}
+.fotter{
+    display: flex;
+    align-items: center;
+}
+
+.h2{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 48px;
+line-height: 56.3px;
+letter-spacing: 0%;
+color: white;
+padding-bottom: 15px;
+}
+
+.yozuvlar{
+    font-family: Work Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 33.6px;
+letter-spacing: 0%;
+color: #FFFFFF;
+padding-bottom: 10px;
+}
+
+.yozuvlar1{
+    font-family: Work Sans;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+.box4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.plar{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.aa{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+    nav ul{
+        display: none;
+    }
+    #i{
+        display: block;
+    }
+    header{
+        justify-content: space-between;
+        gap: 250px;
+        padding: 0px 30px;
+    }
+    header img{
+        display: none;
+    }
+    #img{
+        display: block;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    .box{
+        justify-content: center;
+    }
+    .bola img{
+        width: 200px;
+    }
+    h6{
+        font-size: 60px;
+    }
+    .bola p{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    input{
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .btn{
+        width: 30px;
+        height: 30px;
+        margin-left: -35px;
+    }
+
+    .card2{
+        display: none;
+    }
+    .box1{
+        flex-wrap: wrap;
+        padding: 150px;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 10px;
+    }
+    h4{
+        font-size: 40px;
+        padding-top: 0;
+    }
+    .p{
+        font-size: 15px;
+        padding-top: 0;
+    }
+
+    .rasm{
+        width: 300px;
+    }
+    .rasm1{
+        height: 450px;
+        padding-top: 17px;
+    }
+    .hero2{
+        justify-content: center;
+        padding: 040px;
+        align-items: center;
+    }
+    .box3{
+        justify-content: center;
+    }
+    .h5{
+        text-align: center;
+    }
+    .bolaaaa3 p{
+        text-align: center;
+    }
+    .bola3{
+        margin-bottom: 50px;
+    }
+    .btn3{
+        background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: -105px;
+    }
+
+
+    .box4{
+        flex-wrap: wrap;
+        padding: 0 360px;
+        text-align: center;
+    }
+    .aaa{
+        display: none;
+    }
+
+    .box4{
+        justify-content: center;
+    }
+}
